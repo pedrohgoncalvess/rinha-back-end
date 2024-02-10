@@ -1,10 +1,5 @@
 [debug] Created transactional ClassFileManager with tempDir = C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\target\scala-3.3.0\classes.bak
 [debug] About to delete class files:
-[debug] We backup class files:
-[debug] Created transactional ClassFileManager with tempDir = C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\target\scala-3.3.0\classes.bak
-[debug] About to delete class files:
-[debug] We backup class files:
-[debug] Registering generated classes:
 [debug] 	Transacoes$package.class
 [debug] 	Transacoes$package$.class
 [debug] 	Clientes$package$.class
@@ -49,4 +44,84 @@
 [debug] 	main.tasty
 [debug] 	TransacaoJSF.tasty
 [debug] 	main$package$.tasty
+[debug] We backup class files:
+[debug] 	Transacoes$package.class
+[debug] 	Transacoes$package$.class
+[debug] 	Clientes$package$.class
+[debug] 	Clientes.class
+[debug] 	Clientes$package.class
+[debug] 	Transacoes$.class
+[debug] 	main$package.class
+[debug] 	TransacoesTable.class
+[debug] 	TransacaoJSM$.class
+[debug] 	Transacoes$package$$anon$1.class
+[debug] 	TransacaoJSM.class
+[debug] 	Clientes$.class
+[debug] 	Transacoes$package.class
+[debug] 	Connection.class
+[debug] 	Transacoes$package$.class
+[debug] 	Transacoes.class
+[debug] 	Connection$.class
+[debug] 	Post.class
+[debug] 	ClientesTable.class
+[debug] 	main.class
+[debug] 	TransacaoJSF.class
+[debug] 	main$package$.class
+[debug] 	Transacoes$package.tasty
+[debug] 	Transacoes$package$.tasty
+[debug] 	Clientes$package$.tasty
+[debug] 	Clientes.tasty
+[debug] 	Clientes$package.tasty
+[debug] 	Transacoes$.tasty
+[debug] 	main$package.tasty
+[debug] 	TransacoesTable.tasty
+[debug] 	TransacaoJSM$.tasty
+[debug] 	Transacoes$package$$anon$1.tasty
+[debug] 	TransacaoJSM.tasty
+[debug] 	Clientes$.tasty
+[debug] 	Transacoes$package.tasty
+[debug] 	Connection.tasty
+[debug] 	Transacoes$package$.tasty
+[debug] 	Transacoes.tasty
+[debug] 	Connection$.tasty
+[debug] 	Post.tasty
+[debug] 	ClientesTable.tasty
+[debug] 	main.tasty
+[debug] 	TransacaoJSF.tasty
+[debug] 	main$package$.tasty
+[debug] Rolling back changes to class files.
+[debug] Removing generated classes:
+[debug] Restoring class files: 
+[debug] 	Clientes.tasty
+[debug] 	TransacaoJSM.class
+[debug] 	Clientes$package.class
+[debug] 	TransacaoJSM.tasty
+[debug] 	TransacaoJSM$.class
+[debug] 	Transacoes$package$.class
+[debug] 	Transacoes$package$$anon$1.class
+[debug] 	Connection$.class
+[debug] 	TransacaoJSF.tasty
+[debug] 	main$package$.class
+[debug] 	Clientes$package$.class
+[debug] 	Transacoes.class
+[debug] 	Clientes$.class
+[debug] 	Connection.class
+[debug] 	Connection.tasty
+[debug] 	Transacoes$package.tasty
+[debug] 	Transacoes$.class
+[debug] 	ClientesTable.class
+[debug] 	ClientesTable.tasty
+[debug] 	main$package.class
+[debug] 	Transacoes.tasty
+[debug] 	TransacoesTable.class
+[debug] 	main.class
+[debug] 	Transacoes$package.class
+[debug] 	Clientes.class
+[debug] 	Post.tasty
+[debug] 	Post.class
+[debug] 	TransacoesTable.tasty
+[debug] 	main.tasty
+[debug] 	main$package.tasty
+[debug] 	Clientes$package.tasty
+[debug] 	TransacaoJSF.class
 [debug] Removing the temporary directory used for backing up class files: C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\target\scala-3.3.0\classes.bak

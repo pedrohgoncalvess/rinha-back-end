@@ -1,2 +1,17 @@
 [debug] Acquiring lock on file C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[error] -- [E008] Not Found Error: C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\database\operations\Clientes.scala:11:51 
+[error] 11 |    val queryStatement = clientesTable.filter(_.id === id_cliente).result.headOption
+[error]    |                                              ^^^^^^^^
+[error]    |value === is not a member of slick.lifted.Rep[Long], but could be made available as an extension method.
+[error]    |
+[error]    |One of the following imports might make progress towards fixing the problem:
+[error]    |
+[error]    |  import akka.http.impl.util.JavaMapping.Implicits.convertToScala
+[error]    |  import akka.http.javadsl.server.RoutingJavaMapping.Implicits.convertToScala
+[error]    |
+[error] -- [E172] Type Error: C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\database\operations\Clientes.scala:11:66 
+[error] 11 |    val queryStatement = clientesTable.filter(_.id === id_cliente).result.headOption
+[error]    |                                                                  ^
+[error]    |Ambiguous given instances: both value BooleanColumnCanBeQueryCondition in object CanBeQueryCondition and value BooleanOptionColumnCanBeQueryCondition in object CanBeQueryCondition match type slick.lifted.CanBeQueryCondition[T] of parameter wt of method filter in class Query
+[error] two errors found
 [debug] Releasing lock on file C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.

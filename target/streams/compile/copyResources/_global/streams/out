@@ -1,2 +1,2 @@
-[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\resources\application.conf,C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\target\scala-3.2.0\classes\application.conf)[0m
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\resources\application.conf,C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\target\scala-3.3.0\classes\application.conf)
