@@ -35,7 +35,7 @@ BEGIN
     END IF;
 
     IF NEW.tipo = 'd' THEN
-        UPDATE clientesc
+        UPDATE clientes
         SET saldo = novo_saldo
         WHERE id = NEW.id_cliente;
     ELSIF NEW.tipo = 'c' THEN
