@@ -4,24 +4,26 @@ import slick.jdbc.PostgresProfile.api.*
 
 import java.util.concurrent.atomic.AtomicLong
 
-case class Clientes (
+case class Cliente (
               id:Long,
-              limite:Long
+              limite:Long,
+              saldo:Long
               )
 
-object Clientes:
+object Cliente:
   private val seq = new AtomicLong
   
-  def apply(saldo:Long): Clientes =
-    Clientes(seq.incrementAndGet(), saldo)
+  def apply(limite:Long, saldo:Long): Cliente =
+    Cliente(seq.incrementAndGet(), limite,saldo)
     
-  def mapperTo(id:Long, saldo:Long): Clientes =
-    apply(id, saldo)
+  def mapperTo(id:Long, limite:Long, saldo:Long): Cliente =
+    apply(id, limite, saldo)
 
-class ClientesTable(tag: Tag) extends Table[Clientes](tag, "clientes"):
+class ClienteTable(tag: Tag) extends Table[Cliente](tag, "clientes"):
   def id = column[Long]("id", O.PrimaryKey, O.AutoInc)
+  def limite = column[Long]("limite")
   def saldo = column[Long]("saldo")
   
-  def * = (id, saldo) <> ((Clientes.mapperTo _).tupled, Clientes.unapply)
+  def * = (id, limite, saldo) <> ((Cliente.mapperTo _).tupled, Cliente.unapply)
   
-val clientesTable = TableQuery[ClientesTable]
+val clienteTable = TableQuery[ClienteTable]
