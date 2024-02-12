@@ -10,6 +10,26 @@ services:
       - "5435:5432"
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/scripts.sql
+    networks:
+      - my-network
+
+  akka-api:
+    build: .
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "8080:8080"
+    stdin_open: true
+    tty: true
+    depends_on:
+      - db
+    networks:
+      - my-network
+    command: [ "sbt", "clean", "run" ]
+
+networks:
+  my-network:
 
 volumes:
   pg_data:
