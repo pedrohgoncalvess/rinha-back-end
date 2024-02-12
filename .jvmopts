@@ -1,0 +1,14 @@
+# Same JVM opts as cats
+
+#-Dfile.encoding=UTF8
+#-Xms110M
+#-Xmx140M #140mb min
+#-XX:ReservedCodeCacheSize=10M
+#-XX:+UseG1GC #530mb
+#-XX:G1HeapRegionSize=4M
+#-XX:MaxGCPauseMillis=100
+#-XX:-PrintGC
+#-XX:-PrintGCDetails
+#-XX:InitialCodeCacheSize=2M
+#-XX:ReservedCodeCacheSize=8M
+#-XX:MaxGCPauseMillis=100
