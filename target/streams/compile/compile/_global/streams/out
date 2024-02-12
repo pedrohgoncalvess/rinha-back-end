@@ -1,17 +1,25 @@
-[debug] Acquiring lock on file C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
-[error] -- [E008] Not Found Error: C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\database\operations\Clientes.scala:11:51 
-[error] 11 |    val queryStatement = clientesTable.filter(_.id === id_cliente).result.headOption
-[error]    |                                              ^^^^^^^^
-[error]    |value === is not a member of slick.lifted.Rep[Long], but could be made available as an extension method.
-[error]    |
-[error]    |One of the following imports might make progress towards fixing the problem:
-[error]    |
-[error]    |  import akka.http.impl.util.JavaMapping.Implicits.convertToScala
-[error]    |  import akka.http.javadsl.server.RoutingJavaMapping.Implicits.convertToScala
-[error]    |
-[error] -- [E172] Type Error: C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\database\operations\Clientes.scala:11:66 
-[error] 11 |    val queryStatement = clientesTable.filter(_.id === id_cliente).result.headOption
-[error]    |                                                                  ^
-[error]    |Ambiguous given instances: both value BooleanColumnCanBeQueryCondition in object CanBeQueryCondition and value BooleanOptionColumnCanBeQueryCondition in object CanBeQueryCondition match type slick.lifted.CanBeQueryCondition[T] of parameter wt of method filter in class Query
-[error] two errors found
-[debug] Releasing lock on file C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\api\route\Get.scala:25:8 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m25 |[0m        [33mcase[0m Success(Some(cltej)) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m        ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m        [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m        It would fail on pattern case: Failure(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\api\route\Post.scala:37:16 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m37 |[0m                [33mcase[0m Success(Some(cliente)) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m                [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m                It would fail on pattern case: Success(None)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\api\route\Post.scala:33:12 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m33 |[0m            [33mcase[0m Success(_) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m            ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m            [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m            It would fail on pattern case: Failure(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

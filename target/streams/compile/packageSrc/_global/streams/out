@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\target\scala-3.3.0\rinha-de-backend-2e_3-0.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\resources\application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	database\Connection.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\database\Connection.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	api\json\ExtratoJson.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\api\json\ExtratoJson.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	api\json\TransacaoJson.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\api\json\TransacaoJson.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	api\route\Get.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\api\route\Get.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	api\route\Post.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\api\route\Post.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	database\models\Clientes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\database\models\Clientes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	database\models\Transacoes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\database\models\Transacoes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	database\operations\Clientes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\database\operations\Clientes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	database\operations\Transacoes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pedro\Desktop\WorkSpace\Projetos\rinha-de-backend-2e\src\main\scala\database\operations\Transacoes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
