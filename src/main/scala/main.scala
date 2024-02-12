@@ -1,7 +1,9 @@
 import akka.actor.typed.ActorSystem
 import akka.actor.typed.scaladsl.Behaviors
 import akka.http.scaladsl.Http
-import api.route.Post
+import akka.http.scaladsl.server.Directives
+import api.route.{Get, Post}
+
 import scala.io.StdIn
 
 
@@ -10,9 +12,10 @@ import scala.io.StdIn
   implicit val system = ActorSystem(Behaviors.empty, "my-system")
   implicit val executionContext = system.executionContext
 
-  val route = new Post
+  val postRoute = new Post
+  val getRoute = new Get
 
-  val bindingFuture = Http().newServerAt("localhost", 8080).bind(route.route)
+  val bindingFuture = Http().newServerAt("0.0.0.0", 8080).bind(Directives.concat(postRoute.route, getRoute.route))
 
   println(s"Server now online at port 8080.")
   StdIn.readLine()
