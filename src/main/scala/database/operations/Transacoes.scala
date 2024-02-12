@@ -2,9 +2,12 @@ package database.operations
 
 import database.models.*
 import database.Connection
-import scala.concurrent.{ExecutionContext, Future}
+import api.json.*
 
-def addTransaction(transacao: Transacao): Future[Unit] =
+import scala.concurrent.{ExecutionContext, Future}
+import scala.util.{Failure, Success}
+
+def addTransacao(transacao: Transacao): Future[Unit] =
   import slick.jdbc.PostgresProfile.api._
   import scala.concurrent.ExecutionContext.Implicits.global
 
@@ -17,7 +20,7 @@ def addTransaction(transacao: Transacao): Future[Unit] =
   }
 
 
-def listTransaction(id_cliente: Long): Future[List[Transacao]] =
+def listTransacao(id_cliente: Long): Future[List[Transacao]] =
   import slick.jdbc.PostgresProfile.api._
   import scala.concurrent.ExecutionContext.Implicits.global
 
